@@ -19,8 +19,13 @@
 ![Task 2](worklogPic/ng1A.2_002_combinedString.jpg)
 
 ## ng1A.3 TASKS
+
 ![Task 1](worklogPic/ng1A.3_001_getElement.jpg)
 
 ### TASK 2
 
 ![Task 2](worklogPic/ng1A.3_002_getElementResult.jpg)
+
+## ng1.2 TASKS
+
+![Task 1](worklogPic/ng1.2_00_URLGenerator.jpg)
