@@ -6,4 +6,4 @@
 
 ### TASK 2
 
-![Task 2](worklogPic/ng1A.1_002_greetUser.jpg)
+![Task 2](worklogPic/ng1A.1_002_greetPerson.jpg)
