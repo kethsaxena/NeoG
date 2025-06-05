@@ -1,1 +1,5 @@
-![Alt text](worklogPic/ng1A.1_001_greetUser.jpg)
+## ng1A.1 TASKS
+
+### TASK 1
+
+![Task 1](worklogPic/ng1A.1_001_greetUser.jpg)
