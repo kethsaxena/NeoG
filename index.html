@@ -23,6 +23,10 @@
       </hgroup>
     </header>
     <main class="container">
+      <fieldset role="group" >
+        <input type ="text" id="github" placeholder="Enter your Github username"/>
+        <input type="button" id="generateURL" value="Generate URL"/>
+      </fieldset>
       <div id="app"></div>
     </main>
     <footer class="container neog-footer">
@@ -70,7 +74,7 @@
       // }
       // console.log(combineStrings("Bhima", "Sen"));
     </script> -->
-    <script id="ng1.2"> 
+    <!-- <script id="ng1.2"> 
     // TASK 1
     const username = "Kethsaxena";
 
@@ -80,6 +84,28 @@
 
     const appElement = document.getElementById("app")
     appElement.innerText=getGitHubURL(username);
+
+    </script> -->
+    <script id="ng1.3"> 
+    // TASK 1
+    const username = "Kethsaxena";
+
+    function getGitHubURL(username) {
+      return "https://github.com/"+username;
+    }
+
+    function handleGenerateClick(){
+      const githubURL = getGitHubURL(inputElement.value);
+      appElement.innerHTML = githubURL
+    }
+
+    //OBJECTS
+    const inputElement = document.getElementById("github")
+    const buttonElement = document.getElementById("generateURL")   
+    const appElement = document.getElementById("app")
+
+    //appElement.innerText = 
+    buttonElement.addEventListener("click",handleGenerateClick)
 
     </script>
   </body>

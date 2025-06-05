@@ -29,3 +29,7 @@
 ## ng1.2 TASKS
 
 ![Task 1](worklogPic/ng1.2_001_URLGenerator.jpg)
+
+## ng1.3 TASKS
+
+![Task 1](worklogPic/ng1.3_001_GUIURLGenerator.jpg)
