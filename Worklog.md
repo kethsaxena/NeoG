@@ -28,4 +28,4 @@
 
 ## ng1.2 TASKS
 
-![Task 1](worklogPic/ng1.2_00_URLGenerator.jpg)
+![Task 1](worklogPic/ng1.2_001_URLGenerator.jpg)
