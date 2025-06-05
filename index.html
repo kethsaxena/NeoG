@@ -32,10 +32,17 @@
       </small>
     </footer>
     <script>
+      // TASK 1
       const username = "Kethsaxena";
       function greetUser() {
         console.log("Hello " + username);
       }
+      
+      // greetUser();
+
+      //console.log(greetUser(username));
+      
+      // TASK 2
 
       greetUser();
 
@@ -45,6 +52,23 @@
         console.log("Hello " + username + "! Welcome to our website!");
       }
 
+      // greetPerson("Ajay");
+      // greetPerson("Kidambi Srikanth");
+      // greetPerson("Lakshay Sen");
+
+      function formattedMessage(message) {
+        const resultingMessage = "*" + message + "*";
+        return resultingMessage;
+      }
+
+      console.log(formattedMessage("Hello World"));
+
+      const result = formattedMessage("Good Morning");
+      function combineStrings(string1, string2) {
+        const combined = string1 + " " + string2;
+        return combined;
+      }
+      console.log(combineStrings("Bhima", "Sen"));
       greetPerson("Ajay");
       greetPerson("Kidambi Srikanth");
       greetPerson("Lakshay Sen");

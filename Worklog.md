@@ -7,3 +7,13 @@
 ### TASK 2
 
 ![Task 2](worklogPic/ng1A.1_002_greetPerson.jpg)
+
+## ng1A.2 TASKS
+
+### TASK 1
+
+![Task 1](worklogPic/ng1A.2_001_formattedMessage.jpg)
+
+### TASK 2
+
+![Task 2](worklogPic/ng1A.2_002_combinedString.jpg)
