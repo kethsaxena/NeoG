@@ -6,9 +6,9 @@
     <meta name="color-scheme" content="light dark" />
     <meta
       name="description"
-      content="Your place to get started with semantic web development"
+      content="Get your github link just from userlink"
     />
-    <title>neoG starter template</title>
+    <title>Github URL Generator</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
@@ -18,13 +18,12 @@
   <body>
     <header class="container">
       <hgroup>
-        <h1>neoG starter</h1>
-        <p id="para">A minimal template to learn semantic web dev</p>
-        <div id="result"></div>
+        <h1>Github URL Generator</h1>
+        <p>Get your github link just from userlink</p>
       </hgroup>
     </header>
     <main class="container">
-      <p>Your app will go here</p>
+      <div id="app"></div>
     </main>
     <footer class="container neog-footer">
       <small>
@@ -47,7 +46,7 @@
 
       // greetUser();
 
-      //console.log(greetUser(username));
+      // //console.log(greetUser(username));
 
       // function greetPerson(username) {
       //   console.log("Hello " + username + "! Welcome to our website!");
@@ -70,15 +69,19 @@
       //   return combined;
       // }
       // console.log(combineStrings("Bhima", "Sen"));
-      </script> -->
-      <script>
-        // Subtask ng1A.3
-      const paraElement = document.getElementById("para");
-      console.log(paraElement)
-      const divElement = document.getElementById("result");
-      divElement.innerText = "A Good Morning"
-      //console.log(divElement.innerText =)
-      </script>
-    
+    </script> -->
+    <script id="ng1.2"> 
+    // TASK 1
+    const username = "Kethsaxena";
+
+    function getGitHubURL(username) {
+      return "https://github.com/"+username;
+    }
+
+    const appElement = document.getElementById("app")
+    appElement.innerText=getGitHubURL(username);
+    console.log(appElement);
+
+    </script>
   </body>
 </html>
