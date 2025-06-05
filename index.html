@@ -32,22 +32,31 @@
       </small>
     </footer>
     <script>
+      // TASK 1
       const username = "Kethsaxena";
       function greetUser() {
         console.log("Hello " + username);
       }
 
-      greetUser();
+      // greetUser();
 
       //console.log(greetUser(username));
+      // TASK 2
 
       function greetPerson(username) {
         console.log("Hello " + username + "! Welcome to our website!");
       }
 
-      greetPerson("Ajay");
-      greetPerson("Kidambi Srikanth");
-      greetPerson("Lakshay Sen");
+      // greetPerson("Ajay");
+      // greetPerson("Kidambi Srikanth");
+      // greetPerson("Lakshay Sen");
+
+      function formattedMessage(message) {
+        const resultingMessage = "*" + message + "*";
+        return resultingMessage;
+      }
+
+      console.log(formattedMessage("Hello World"));
     </script>
   </body>
 </html>
