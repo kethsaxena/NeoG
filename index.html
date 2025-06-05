@@ -6,9 +6,9 @@
     <meta name="color-scheme" content="light dark" />
     <meta
       name="description"
-      content="Your place to get started with semantic web development"
+      content="Get your github link just from userlink"
     />
-    <title>neoG starter template</title>
+    <title>Github URL Generator</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
@@ -18,12 +18,12 @@
   <body>
     <header class="container">
       <hgroup>
-        <h1>neoG starter</h1>
-        <p>A minimal template to learn semantic web dev</p>
+        <h1>Github URL Generator</h1>
+        <p>Get your github link just from userlink</p>
       </hgroup>
     </header>
     <main class="container">
-      <p>Your app will go here</p>
+      <div id="app"></div>
     </main>
     <footer class="container neog-footer">
       <small>
@@ -34,6 +34,16 @@
     <script>
       // TASK 1
       const username = "Kethsaxena";
+
+      function getGitHubURL(username) {
+        return "https://github.com/"+username;
+      }
+
+      const appElement = document.getElementById("app")
+
+      appElement.innerText=getGitHubURL(username);
+      console.log(appElement);
+
       function greetUser() {
         console.log("Hello " + username);
       }
@@ -44,31 +54,31 @@
 
       // TASK 2
 
-      greetUser();
+      // greetUser();
 
-      //console.log(greetUser(username));
+      // //console.log(greetUser(username));
 
-      function greetPerson(username) {
-        console.log("Hello " + username + "! Welcome to our website!");
-      }
+      // function greetPerson(username) {
+      //   console.log("Hello " + username + "! Welcome to our website!");
+      // }
 
-      // greetPerson("Ajay");
-      // greetPerson("Kidambi Srikanth");
-      // greetPerson("Lakshay Sen");
+      // // greetPerson("Ajay");
+      // // greetPerson("Kidambi Srikanth");
+      // // greetPerson("Lakshay Sen");
 
-      function formattedMessage(message) {
-        const resultingMessage = "*" + message + "*";
-        return resultingMessage;
-      }
+      // function formattedMessage(message) {
+      //   const resultingMessage = "*" + message + "*";
+      //   return resultingMessage;
+      // }
 
-      console.log(formattedMessage("Hello World"));
+      // console.log(formattedMessage("Hello World"));
 
-      const result = formattedMessage("Good Morning");
-      function combineStrings(string1, string2) {
-        const combined = string1 + " " + string2;
-        return combined;
-      }
-      console.log(combineStrings("Bhima", "Sen"));
+      // const result = formattedMessage("Good Morning");
+      // function combineStrings(string1, string2) {
+      //   const combined = string1 + " " + string2;
+      //   return combined;
+      // }
+      // console.log(combineStrings("Bhima", "Sen"));
     </script>
   </body>
 </html>
