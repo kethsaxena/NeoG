@@ -31,7 +31,7 @@
         <a href="https://neog.camp">neog.camp</a>
       </small>
     </footer>
-    <script>
+    <!-- <script>
       // TASK 1
       const username = "Kethsaxena";
 
@@ -79,6 +79,19 @@
       //   return combined;
       // }
       // console.log(combineStrings("Bhima", "Sen"));
+    </script> -->
+    <script id="ng1.2"> 
+    // TASK 1
+    const username = "Kethsaxena";
+
+    function getGitHubURL(username) {
+      return "https://github.com/"+username;
+    }
+
+    const appElement = document.getElementById("app")
+    appElement.innerText=getGitHubURL(username);
+    console.log(appElement);
+
     </script>
   </body>
 </html>
