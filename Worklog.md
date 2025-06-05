@@ -17,3 +17,5 @@
 ### TASK 2
 
 ![Task 2](worklogPic/ng1A.2_002_combinedString.jpg)
+
+## ng1A.3 TASKS
